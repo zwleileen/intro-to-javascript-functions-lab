@@ -73,3 +73,19 @@ function convertTemperature(temperature, scale) {
 console.log("Exercise 8 Result:", convertTemperature(32, "F"));
 
 // Exercise 9
+function basicCalculator(a, b, operation) {
+  if (operation === "multiply") {
+    const result1 = a * b;
+    return result1;
+  } else if (operation === "divide") {
+    const result2 = a / b;
+    return result2;
+  } else if (operation === "add") {
+    const result3 = a + b;
+    return result3;
+  } else {
+    const result4 = a - b;
+    return result4;
+  }
+}
+console.log("Exercise 9 Result:", basicCalculator(10, 5, "subtract"));
